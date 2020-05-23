@@ -1,0 +1,189 @@
+main div
+{
+  display: inline-block;
+
+  justify-content: center;
+}
+body
+{
+  font-family: "Apple Chancery", Helvetica, "Avenir Next", sans-serif;
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div
+{
+  width: 650px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+hr
+{
+  background-color: #054911;
+  color: #054911;
+  height: 1px;
+}
+
+svg
+{
+width: 47%;
+}
+
+h1
+{
+  font-size: 40px;
+}
+
+h2
+{
+  font-size: 35px;
+  color: #054911;
+}
+
+h3
+{
+  font-size: 30px;
+  color: #d317f7;
+}
+
+h4
+{
+  font-size: 15px;
+}
+.hidden
+{
+  display: none;
+}
+
+.container
+{
+  display: inline-block;
+}
+
+.mainHeader{
+  flex-direction:row;
+  height: 40px;
+}
+
+.projectName
+{
+text-align: left;
+}
+
+.mainNav
+{
+margin-top: -80px;
+}
+
+.mainNav ul
+{
+  text-align: right;
+  list-style-type: none;
+  padding: 0;
+}
+
+.mainNav ul li {
+  display: inline;
+}
+
+.mainNav ul li a
+{
+text-decoration: none;
+padding: 5px;
+color: #000;
+}
+
+.mainNav ul li a:hover
+{
+ color: #D657C2;
+}
+.when
+{
+  margin-top: -30px;
+}
+
+.logos
+{
+  display: flex;
+  flex-direction: row;
+}
+.mainFooter
+{
+height: 40px;
+display: inline;
+}
+
+.footerNav
+{
+  margin-top: -20px;
+}
+.footerNav ul
+{
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerNav ul li {
+  display: inline;
+}
+
+.footerNav ul li a
+{
+text-decoration: none;
+padding: 5px;
+color: #000;
+}
+
+.footerNav ul li a:hover
+{
+ color: #D657C2;
+}
+#flowerGarden:hover, #cactusVillage:hover, #lotusPower:hover, #spring:hover, #palmLeafSummerCamp:hover, #shanty:hover,  #rose:hover, #blueFlower:hover, #yellowFlower:hover, #greenTulip:hover
+  {
+webkit-transform: scale(1.05);
+ms-transform: scale(1.05);
+transform: scale(1.05);
+  }
+
+#flowerGarden:hover #floretPink {fill:#19c6f4 ! important;}
+
+#cactusVillage:hover #potIvary {fill:#19c6f4 ! important;}
+
+#lotusPower:hover {fill:#19c6f4 ! important;}
+
+#spring:hover #secondleaf {fill:#19c6f4 ! important;}
+#spring:hover #redleaf {fill:#19c6f4 ! important;}
+
+#palmLeafSummerCamp:hover #palmLeaf {fill:#19c6f4 ! important;}
+
+#shanty:hover #petal1 {fill:#19c6f4 ! important;}
+#shanty:hover #petal2 {fill:#19c6f4 ! important;}
+#shanty:hover #petal3 {fill:#19c6f4 ! important;}
+#shanty:hover #petal4 {fill:#19c6f4 ! important;}
+#shanty:hover #petal5 {fill:#19c6f4 ! important;}
+#shanty:hover #petal6 {fill:#19c6f4 ! important;}
+#shanty:hover #petal7 {fill:#19c6f4 ! important;}
+#shanty:hover #petal8 {fill:#19c6f4 ! important;}
+
+#rose:hover #roseBase {fill:#19c6f4 ! important;}
+
+#blueFlower:hover #bluePetal1 {fill:#19c6f4 ! important;}
+#blueFlower:hover #bluePetal2 {fill:#19c6f4 ! important;}
+#blueFlower:hover #bluePetal3 {fill:#19c6f4 ! important;}
+#blueFlower:hover #bluePetal4 {fill:#19c6f4 ! important;}
+#blueFlower:hover #bluePetal5 {fill:#19c6f4 ! important;}
+
+#yellowFlower:hover #yellowFlowerPetal1 {fill:#19c6f4 ! important;}
+#yellowFlower:hover #yellowFlowerPetal3 {fill:#19c6f4 ! important;}
+#yellowFlower:hover #yellowFlowerPetal4 {fill:#19c6f4 ! important;}
+#yellowFlower:hover #yellowFlowerPetal5 {fill:#19c6f4 ! important;}
+#yellowFlower:hover #yellowFlowerPetal6 {fill:#19c6f4 ! important;}
+#yellowFlower:hover #yellowFlowerPetal7 {fill:#19c6f4 ! important;}
+
+#greenTulip:hover #greenBase {fill:#19c6f4 ! important;}
